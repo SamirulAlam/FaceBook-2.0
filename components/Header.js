@@ -23,6 +23,13 @@ function Header() {
                 </div>
             </div>
             <div className="flex items-center sm:space-x-2 justify-end">
+                <Image
+                    src="https://avatars.githubusercontent.com/u/50224886?v=4"
+                    width={40}
+                    height={40}
+                    layouts="fixed"
+                    className="rounded-full"
+                />
                 <p className="whitespace-nowrap font-semibold pr-3">Samir</p>
                 <ViewGridIcon className="icon" />
                 <ChatIcon className="icon" />
