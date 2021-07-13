@@ -4,22 +4,22 @@ const stories=[
     {
         src:"https://links.papareact.com/4zn",
         profile:"https://links.papareact.com/kxk",
-        name:'Sonny Sangha'
+        name:'Elon Musk'
     },
     {
         src:"https://links.papareact.com/k2j",
         profile:"https://links.papareact.com/f0p",
-        name:'Rafeh Qazi '
+        name:'Jeff '
     },
     {
         src:"https://links.papareact.com/xql",
         profile:"https://links.papareact.com/snf",
-        name:'Nazariy Dumanskyy '
+        name:'Mark'
     },
     {
         src:"https://links.papareact.com/4u4",
-        profile:"https://links.papareact.com/2vy",
-        name:'Rafeh Qazi '
+        profile:"https://links.papareact.com/zvy",
+        name:'Bill Gates'
     }
 ]
 function Stories() {
