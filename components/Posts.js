@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import { useCollection } from "react-firebase-hooks/firestore"
 import { db } from "../firebase"
 import Post from "./Post"
