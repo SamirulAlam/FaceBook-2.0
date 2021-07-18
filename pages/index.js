@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Header from '../components/Header'
-import { getSession } from "next-auth/client"
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
+import Widgets from '../components/Widgets';
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
       <main className="flex">
           <Sidebar />
           <Feed />
+          <Widgets />
       </main>
     </div>
   )

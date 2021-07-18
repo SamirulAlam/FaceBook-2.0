@@ -1,18 +1,19 @@
 import firebase from 'firebase';
+import "firebase/storage"
+
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB0uMDbgg7Qgf0s9U2xY9hIVZt50eKIHXc",
-    authDomain: "facebook-clone-92e9f.firebaseapp.com",
-    projectId: "facebook-clone-92e9f",
-    storageBucket: "facebook-clone-92e9f.appspot.com",
-    messagingSenderId: "977443122297",
-    appId: "1:977443122297:web:ce961038c0186da0efb8a8",
-    measurementId: "G-3F8NZBFFME"
-  };
+  apiKey: "AIzaSyCE5QzdqHaqM5e3R-SkYAS94V_41H75VGM",
+  authDomain: "facebook-clone-2-38a31.firebaseapp.com",
+  projectId: "facebook-clone-2-38a31",
+  storageBucket: "facebook-clone-2-38a31.appspot.com",
+  messagingSenderId: "85301177709",
+  appId: "1:85301177709:web:5b4b5a1ac89995994bbe64"
+};
 
-  const app=!firebase.apps.length ? firebase.initializeApp(firebaseConfig):firebase.app();
+  const app=!firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
   const db=app.firestore();
   const storage=firebase.storage()
 
   
-  export default {storage,db};
+  export {storage,db};
